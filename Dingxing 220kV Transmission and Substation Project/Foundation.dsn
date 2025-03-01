@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="GB2312" standalone="yes" ?>
+<!--
+文件创建：北京世纪百合科技有限公司
+创建时间：2020-11-17
+文件说明：
+版权所有：北京世纪百合科技有限公司
+-->
+<LILY>
+    <m_Version m_SoftID="33" m_Version="20150101" SaveTime="2020-11-17 8:34:33"/>
+    <JcNode iUseGf="1" iBookLanguage="2052" cTowerGroup="lily_220kV国网通用设计2011" dSToDFxyXS="1.35" dSToDFzXS="1.35" dDnxs_0_15="0.6" dUpxs_0_15="0.7" dDnxs_15_30="0.5" dUpxs_15_30="0.6" dDnxs_30_45="0.4" dUpxs_30_45="0.5" dDnxs_45_60="0.3" dUpxs_45_60="0.4" dDnxs_60_90="0.2" dUpxs_60_90="0.3">
+        <Ta DisplayName="2F4-SDJ" NodeType="1" cTaName="2F4-SDJ" eTaType="3" eTaFenLei="0" dHuGao="30" dTurnAngle="90" dFaceRoot="14.021" dSideRoot="14.021" dFaceAngle="0" dSideAngle="0" dDsX="0" dDsY="0" dE="0" cFootConectType="3.棘爪型地栓" cFootConectType_Xie="3.棘爪型地栓" K1="1.1" K2="1.6" K3="1.6" dRs="1.25" dRp="1.25" dRsp="1.25" dRc="1.25" bFLUse="0" bUseTuTemp="1" cTuTempName="定兴北">
+            <JcCenter>
+                <SubNode DisplayName="整体式基础" NodeType="3"/>
+                <SubNode DisplayName="A;B" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="0"/>
+                </SubNode>
+                <SubNode DisplayName="C;D" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="1"/>
+                </SubNode>
+            </JcCenter>
+            <Foundation Fingerprint="">
+                <JcPower AB="2" CD="2" AllGKCount="2">
+                    <row szGK="工况1" leg="A;B" dFz="-2064.88" dFx="371" dFy="400.68" dMz="0" dMx="0" dMy="0" dFz_S="-1529.54" dFx_S="274.815" dFy_S="296.8" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="A;B" dFz="1770.82" dFx="344.1" dFy="306.36" dMz="0" dMx="0" dMy="0" dFz_S="1311.72" dFx_S="254.889" dFy_S="226.933" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="" leg="C;D" dFz="-1441.52" dFx="259" dFy="279.72" dMz="0" dMx="0" dMy="0" dFz_S="-1067.79" dFx_S="191.852" dFy_S="207.2" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="C;D" dFz="2536.58" dFx="492.9" dFy="438.84" dMz="0" dMx="0" dMy="0" dFz_S="1878.95" dFx_S="365.111" dFy_S="325.067" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                </JcPower>
+            </Foundation>
+            <DJLS iLsD="72" iLsN="4" iLsSpace="420" iLsGJD="18" iLsGJInD="18" iLsGJSpace="200" cLsCaiZhi="35号优质碳素钢" cGjCaizhi="HPB300" cBzType="0-方形" bLineHaveBolt="0" iFootBanW="700"/>
+            <InsertJG cAIType="100x10" cAICaizhi="Q235" iAIWidth="100" iAIThick="10" iAIExtendL="700" iAIMgL="0" cMglsCaiZhi="Q235钢" iMglsD="24" iMglsN="4" iMglsCol="1" iColsD="24" iColsN="4" iColsCol="1"/>
+            <FLNode iFLInD="835" iFLOutD="1297" iFLThick="32" nSides="12" cCaiZhi="Q460" bAddJinBian="1" jjThick="12" jjH="280"/>
+        </Ta>
+        <Ta DisplayName="2F4-SJ1" NodeType="1" cTaName="2F4-SJ1" eTaType="3" eTaFenLei="0" dHuGao="30" dTurnAngle="20" dFaceRoot="11.24" dSideRoot="11.24" dFaceAngle="0" dSideAngle="0" dDsX="0" dDsY="0" dE="0" cFootConectType="3.棘爪型地栓" cFootConectType_Xie="3.棘爪型地栓" K1="1.1" K2="1.6" K3="1.6" dRs="1.25" dRp="1.25" dRsp="1.25" dRc="1.25" bFLUse="0" bUseTuTemp="1" cTuTempName="定兴北">
+            <JcCenter>
+                <SubNode DisplayName="整体式基础" NodeType="3"/>
+                <SubNode DisplayName="A;B;C;D" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="0"/>
+                </SubNode>
+            </JcCenter>
+            <Foundation Fingerprint="">
+                <JcPower ABCD="2" AllGKCount="2">
+                    <row szGK="工况1" leg="A;B;C;D" dFz="-934.92" dFx="148.4" dFy="129.32" dMz="0" dMx="0" dMy="0" dFz_S="-692.533" dFx_S="109.926" dFy_S="95.793" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="A;B;C;D" dFz="1244.44" dFx="189.74" dFy="173.84" dMz="0" dMx="0" dMy="0" dFz_S="921.807" dFx_S="140.548" dFy_S="128.77" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                </JcPower>
+            </Foundation>
+            <DJLS iLsD="56" iLsN="4" iLsSpace="330" iLsGJD="14" iLsGJInD="14" iLsGJSpace="200" cLsCaiZhi="35号优质碳素钢" cGjCaizhi="HPB300" cBzType="0-方形" bLineHaveBolt="0" iFootBanW="570"/>
+            <InsertJG cAIType="100x10" cAICaizhi="Q235" iAIWidth="100" iAIThick="10" iAIExtendL="700" iAIMgL="0" cMglsCaiZhi="Q235钢" iMglsD="24" iMglsN="4" iMglsCol="1" iColsD="24" iColsN="4" iColsCol="1"/>
+            <FLNode iFLInD="835" iFLOutD="1297" iFLThick="32" nSides="12" cCaiZhi="Q460" bAddJinBian="1" jjThick="12" jjH="280"/>
+        </Ta>
+        <Ta DisplayName="2F4-SJ2" NodeType="1" cTaName="2F4-SJ2" eTaType="3" eTaFenLei="0" dHuGao="30" dTurnAngle="40" dFaceRoot="12.24" dSideRoot="12.24" dFaceAngle="0" dSideAngle="0" dDsX="0" dDsY="0" dE="0" cFootConectType="3.棘爪型地栓" cFootConectType_Xie="3.棘爪型地栓" K1="1.1" K2="1.6" K3="1.6" dRs="1.25" dRp="1.25" dRsp="1.25" dRc="1.25" bFLUse="0" bUseTuTemp="1" cTuTempName="定兴北">
+            <JcCenter>
+                <SubNode DisplayName="整体式基础" NodeType="3"/>
+                <SubNode DisplayName="A;B" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="0"/>
+                </SubNode>
+                <SubNode DisplayName="C;D" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="0"/>
+                </SubNode>
+            </JcCenter>
+            <Foundation Fingerprint="">
+                <JcPower AB="2" CD="2" AllGKCount="2">
+                    <row szGK="工况1" leg="A;B" dFz="-1335.6" dFx="226.84" dFy="208.82" dMz="0" dMx="0" dMy="0" dFz_S="-989.333" dFx_S="168.03" dFy_S="154.681" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="A;B" dFz="1155.88" dFx="192.4" dFy="182.04" dMz="0" dMx="0" dMy="0" dFz_S="856.207" dFx_S="142.519" dFy_S="134.844" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="" leg="C;D" dFz="-932.4" dFx="158.36" dFy="145.78" dMz="0" dMx="0" dMy="0" dFz_S="-690.667" dFx_S="117.304" dFy_S="107.985" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="C;D" dFz="1655.72" dFx="275.6" dFy="260.76" dMz="0" dMx="0" dMy="0" dFz_S="1226.46" dFx_S="204.148" dFy_S="193.156" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                </JcPower>
+            </Foundation>
+            <DJLS iLsD="64" iLsN="4" iLsSpace="370" iLsGJD="16" iLsGJInD="16" iLsGJSpace="200" cLsCaiZhi="35号优质碳素钢" cGjCaizhi="HPB300" cBzType="0-方形" bLineHaveBolt="0" iFootBanW="630"/>
+            <InsertJG cAIType="100x10" cAICaizhi="Q235" iAIWidth="100" iAIThick="10" iAIExtendL="700" iAIMgL="0" cMglsCaiZhi="Q235钢" iMglsD="24" iMglsN="4" iMglsCol="1" iColsD="24" iColsN="4" iColsCol="1"/>
+            <FLNode iFLInD="835" iFLOutD="1297" iFLThick="32" nSides="12" cCaiZhi="Q460" bAddJinBian="1" jjThick="12" jjH="280"/>
+        </Ta>
+        <Ta DisplayName="2F4-SJ3" NodeType="1" cTaName="2F4-SJ3" eTaType="3" eTaFenLei="0" dHuGao="30" dTurnAngle="60" dFaceRoot="12.55" dSideRoot="12.55" dFaceAngle="0" dSideAngle="0" dDsX="0" dDsY="0" dE="0" cFootConectType="3.棘爪型地栓" cFootConectType_Xie="3.棘爪型地栓" K1="1.1" K2="1.6" K3="1.6" dRs="1.25" dRp="1.25" dRsp="1.25" dRc="1.25" bFLUse="0" bUseTuTemp="1" cTuTempName="定兴北">
+            <JcCenter>
+                <SubNode DisplayName="整体式基础" NodeType="3"/>
+                <SubNode DisplayName="A;B" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="0"/>
+                </SubNode>
+                <SubNode DisplayName="C;D" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="0"/>
+                </SubNode>
+            </JcCenter>
+            <Foundation Fingerprint="">
+                <JcPower AB="2" CD="2" AllGKCount="2">
+                    <row szGK="工况1" leg="A;B" dFz="-1740.52" dFx="302.1" dFy="275.6" dMz="0" dMx="0" dMy="0" dFz_S="-1289.27" dFx_S="223.778" dFy_S="204.148" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="A;B" dFz="1435.6" dFx="245.68" dFy="227.92" dMz="0" dMx="0" dMy="0" dFz_S="1063.41" dFx_S="181.985" dFy_S="168.83" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="" leg="C;D" dFz="-1215.08" dFx="210.9" dFy="192.4" dMz="0" dMx="0" dMy="0" dFz_S="-900.059" dFx_S="156.222" dFy_S="142.519" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="C;D" dFz="2056.4" dFx="351.92" dFy="326.48" dMz="0" dMx="0" dMy="0" dFz_S="1523.26" dFx_S="260.681" dFy_S="241.837" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                </JcPower>
+            </Foundation>
+            <DJLS iLsD="72" iLsN="4" iLsSpace="420" iLsGJD="18" iLsGJInD="18" iLsGJSpace="200" cLsCaiZhi="35号优质碳素钢" cGjCaizhi="HPB300" cBzType="0-方形" bLineHaveBolt="0" iFootBanW="700"/>
+            <InsertJG cAIType="100x10" cAICaizhi="Q235" iAIWidth="100" iAIThick="10" iAIExtendL="700" iAIMgL="0" cMglsCaiZhi="Q235钢" iMglsD="24" iMglsN="4" iMglsCol="1" iColsD="24" iColsN="4" iColsCol="1"/>
+            <FLNode iFLInD="835" iFLOutD="1297" iFLThick="32" nSides="12" cCaiZhi="Q460" bAddJinBian="1" jjThick="12" jjH="280"/>
+        </Ta>
+        <Ta DisplayName="2F4-SJ4" NodeType="1" cTaName="2F4-SJ4" eTaType="3" eTaFenLei="0" dHuGao="30" dTurnAngle="90" dFaceRoot="13.05" dSideRoot="13.05" dFaceAngle="0" dSideAngle="0" dDsX="0" dDsY="0" dE="0" cFootConectType="3.棘爪型地栓" cFootConectType_Xie="3.棘爪型地栓" K1="1.1" K2="1.6" K3="1.6" dRs="1.25" dRp="1.25" dRsp="1.25" dRc="1.25" bFLUse="0" bUseTuTemp="1" cTuTempName="定兴北">
+            <JcCenter>
+                <SubNode DisplayName="整体式基础" NodeType="3"/>
+                <SubNode DisplayName="A;B" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="1"/>
+                </SubNode>
+                <SubNode DisplayName="C;D" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="1"/>
+                </SubNode>
+            </JcCenter>
+            <Foundation Fingerprint="">
+                <JcPower AB="2" CD="2" AllGKCount="2">
+                    <row szGK="工况1" leg="A;B" dFz="-2217.52" dFx="398.56" dFy="363.58" dMz="0" dMx="0" dMy="0" dFz_S="-1642.61" dFx_S="295.23" dFy_S="269.319" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="A;B" dFz="1829.28" dFx="320.42" dFy="297.48" dMz="0" dMx="0" dMy="0" dFz_S="1355.02" dFx_S="237.348" dFy_S="220.356" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="" leg="C;D" dFz="-1548.08" dFx="278.24" dFy="253.82" dMz="0" dMx="0" dMy="0" dFz_S="-1146.73" dFx_S="206.104" dFy_S="188.015" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="C;D" dFz="2472" dFx="433" dFy="402" dMz="0" dMx="0" dMy="0" dFz_S="1831.11" dFx_S="320.741" dFy_S="297.778" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                </JcPower>
+            </Foundation>
+            <DJLS iLsD="72" iLsN="4" iLsSpace="420" iLsGJD="18" iLsGJInD="18" iLsGJSpace="200" cLsCaiZhi="35号优质碳素钢" cGjCaizhi="HPB300" cBzType="0-方形" bLineHaveBolt="0" iFootBanW="700"/>
+            <InsertJG cAIType="100x10" cAICaizhi="Q235" iAIWidth="100" iAIThick="10" iAIExtendL="700" iAIMgL="0" cMglsCaiZhi="Q235钢" iMglsD="24" iMglsN="4" iMglsCol="1" iColsD="24" iColsN="4" iColsCol="1"/>
+            <FLNode iFLInD="835" iFLOutD="1297" iFLThick="32" nSides="12" cCaiZhi="Q460" bAddJinBian="1" jjThick="12" jjH="280"/>
+        </Ta>
+        <Ta DisplayName="2F3-SZ1" NodeType="1" cTaName="2F3-SZ1" eTaType="1" eTaFenLei="0" dHuGao="33" dTurnAngle="0" dFaceRoot="8.15" dSideRoot="8.15" dFaceAngle="0" dSideAngle="0" dDsX="0" dDsY="0" dE="0" cFootConectType="3.棘爪型地栓" cFootConectType_Xie="3.棘爪型地栓" K1="0.9" K2="1.1" K3="1.1" dRs="0.8" dRp="0.8" dRsp="0.8" dRc="0.8" bFLUse="0" bUseTuTemp="1" cTuTempName="定兴北">
+            <JcCenter>
+                <SubNode DisplayName="整体式基础" NodeType="3"/>
+                <SubNode DisplayName="A;B;C;D" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="1"/>
+                </SubNode>
+            </JcCenter>
+            <Foundation Fingerprint="">
+                <JcPower ABCD="2" AllGKCount="2">
+                    <row szGK="工况1" leg="A;B;C;D" dFz="-465.34" dFx="53" dFy="46.64" dMz="0" dMx="0" dMy="0" dFz_S="-344.696" dFx_S="39.259" dFy_S="34.548" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="A;B;C;D" dFz="607.38" dFx="65.72" dFy="60.42" dMz="0" dMx="0" dMy="0" dFz_S="449.911" dFx_S="48.681" dFy_S="44.756" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                </JcPower>
+            </Foundation>
+            <DJLS iLsD="36" iLsN="4" iLsSpace="240" iLsGJD="10" iLsGJInD="10" iLsGJSpace="180" cLsCaiZhi="35号优质碳素钢" cGjCaizhi="HPB300" cBzType="0-方形" bLineHaveBolt="0" iFootBanW="400"/>
+            <InsertJG cAIType="100x10" cAICaizhi="Q235" iAIWidth="100" iAIThick="10" iAIExtendL="700" iAIMgL="0" cMglsCaiZhi="Q235钢" iMglsD="24" iMglsN="4" iMglsCol="1" iColsD="24" iColsN="4" iColsCol="1"/>
+            <FLNode iFLInD="835" iFLOutD="1297" iFLThick="32" nSides="12" cCaiZhi="Q460" bAddJinBian="1" jjThick="12" jjH="280"/>
+        </Ta>
+        <Ta DisplayName="2F3-SZ2" NodeType="1" cTaName="2F3-SZ2" eTaType="1" eTaFenLei="0" dHuGao="42" dTurnAngle="0" dFaceRoot="9.76" dSideRoot="9.76" dFaceAngle="0" dSideAngle="0" dDsX="0" dDsY="0" dE="0" cFootConectType="3.棘爪型地栓" cFootConectType_Xie="3.棘爪型地栓" K1="0.9" K2="1.1" K3="1.1" dRs="0.8" dRp="0.8" dRsp="0.8" dRc="0.8" bFLUse="0" bUseTuTemp="1" cTuTempName="定兴北">
+            <JcCenter>
+                <SubNode DisplayName="整体式基础" NodeType="3"/>
+                <SubNode DisplayName="A;B;C;D" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="1"/>
+                </SubNode>
+            </JcCenter>
+            <Foundation Fingerprint="">
+                <JcPower ABCD="2" AllGKCount="2">
+                    <row szGK="工况1" leg="A;B;C;D" dFz="-589.36" dFx="91.16" dFy="61.48" dMz="0" dMx="0" dMy="0" dFz_S="-436.563" dFx_S="67.526" dFy_S="45.541" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="A;B;C;D" dFz="788.64" dFx="87.98" dFy="79.5" dMz="0" dMx="0" dMy="0" dFz_S="584.178" dFx_S="65.17" dFy_S="58.889" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                </JcPower>
+            </Foundation>
+            <DJLS iLsD="42" iLsN="4" iLsSpace="270" iLsGJD="12" iLsGJInD="12" iLsGJSpace="200" cLsCaiZhi="35号优质碳素钢" cGjCaizhi="HPB300" cBzType="0-方形" bLineHaveBolt="0" iFootBanW="450"/>
+            <InsertJG cAIType="100x10" cAICaizhi="Q235" iAIWidth="100" iAIThick="10" iAIExtendL="700" iAIMgL="0" cMglsCaiZhi="Q235钢" iMglsD="24" iMglsN="4" iMglsCol="1" iColsD="24" iColsN="4" iColsCol="1"/>
+            <FLNode iFLInD="835" iFLOutD="1297" iFLThick="32" nSides="12" cCaiZhi="Q460" bAddJinBian="1" jjThick="12" jjH="280"/>
+        </Ta>
+        <Ta DisplayName="2F3-SZ3" NodeType="1" cTaName="2F3-SZ3" eTaType="1" eTaFenLei="0" dHuGao="45" dTurnAngle="0" dFaceRoot="10.25" dSideRoot="10.25" dFaceAngle="0" dSideAngle="0" dDsX="0" dDsY="0" dE="0" cFootConectType="3.棘爪型地栓" cFootConectType_Xie="3.棘爪型地栓" K1="0.9" K2="1.1" K3="1.1" dRs="0.8" dRp="0.8" dRsp="0.8" dRc="0.8" bFLUse="0" bUseTuTemp="1" cTuTempName="定兴北">
+            <JcCenter>
+                <SubNode DisplayName="整体式基础" NodeType="3">
+                    <row DisplayName="(20)" NodeType="5" JcType="20" bSuccess="0"/>
+                </SubNode>
+                <SubNode DisplayName="A;B;C;D" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="1"/>
+                </SubNode>
+            </JcCenter>
+            <Foundation Fingerprint="">
+                <JcPower ABCD="2" AllGKCount="2">
+                    <row szGK="工况1" leg="A;B;C;D" dFz="-684.76" dFx="77.38" dFy="68.9" dMz="0" dMx="0" dMy="0" dFz_S="-507.23" dFx_S="57.319" dFy_S="51.037" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="A;B;C;D" dFz="878.74" dFx="95.4" dFy="87.98" dMz="0" dMx="0" dMy="0" dFz_S="650.919" dFx_S="70.667" dFy_S="65.17" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                </JcPower>
+            </Foundation>
+            <DJLS iLsD="42" iLsN="4" iLsSpace="270" iLsGJD="12" iLsGJInD="12" iLsGJSpace="200" cLsCaiZhi="35号优质碳素钢" cGjCaizhi="HPB300" cBzType="0-方形" bLineHaveBolt="0" iFootBanW="450"/>
+            <InsertJG cAIType="100x10" cAICaizhi="Q235" iAIWidth="100" iAIThick="10" iAIExtendL="700" iAIMgL="0" cMglsCaiZhi="Q235钢" iMglsD="24" iMglsN="4" iMglsCol="1" iColsD="24" iColsN="4" iColsCol="1"/>
+            <FLNode iFLInD="835" iFLOutD="1297" iFLThick="32" nSides="12" cCaiZhi="Q460" bAddJinBian="1" jjThick="12" jjH="280"/>
+        </Ta>
+        <Ta DisplayName="2F3-SZK" NodeType="1" cTaName="2F3-SZK" eTaType="1" eTaFenLei="0" dHuGao="60" dTurnAngle="0" dFaceRoot="12.95" dSideRoot="12.95" dFaceAngle="0" dSideAngle="0" dDsX="0" dDsY="0" dE="0" cFootConectType="3.棘爪型地栓" cFootConectType_Xie="3.棘爪型地栓" K1="0.9" K2="1.1" K3="1.1" dRs="0.8" dRp="0.8" dRsp="0.8" dRc="0.8" bFLUse="0" bUseTuTemp="1" cTuTempName="定兴北">
+            <JcCenter>
+                <SubNode DisplayName="整体式基础" NodeType="3">
+                    <row DisplayName="(20)" NodeType="5" JcType="20" bSuccess="0"/>
+                </SubNode>
+                <SubNode DisplayName="A;B;C;D" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="1"/>
+                </SubNode>
+            </JcCenter>
+            <Foundation Fingerprint="">
+                <JcPower ABCD="2" AllGKCount="2">
+                    <row szGK="工况1" leg="A;B;C;D" dFz="-791.82" dFx="91.16" dFy="91.16" dMz="0" dMx="0" dMy="0" dFz_S="-586.533" dFx_S="67.526" dFy_S="67.526" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="A;B;C;D" dFz="1058.94" dFx="117.66" dFy="116.6" dMz="0" dMx="0" dMy="0" dFz_S="784.4" dFx_S="87.156" dFy_S="86.37" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                </JcPower>
+            </Foundation>
+            <DJLS iLsD="48" iLsN="4" iLsSpace="290" iLsGJD="12" iLsGJInD="12" iLsGJSpace="200" cLsCaiZhi="35号优质碳素钢" cGjCaizhi="HPB300" cBzType="0-方形" bLineHaveBolt="0" iFootBanW="490"/>
+            <InsertJG cAIType="100x10" cAICaizhi="Q235" iAIWidth="100" iAIThick="10" iAIExtendL="700" iAIMgL="0" cMglsCaiZhi="Q235钢" iMglsD="24" iMglsN="4" iMglsCol="1" iColsD="24" iColsN="4" iColsCol="1"/>
+            <FLNode iFLInD="835" iFLOutD="1297" iFLThick="32" nSides="12" cCaiZhi="Q460" bAddJinBian="1" jjThick="12" jjH="280"/>
+        </Ta>
+        <Ta DisplayName="SDDII43" NodeType="1" cTaName="SDDII43" eTaType="3" eTaFenLei="0" dHuGao="14.5" dTurnAngle="90" dFaceRoot="7.3" dSideRoot="7.3" dFaceAngle="0" dSideAngle="0" dDsX="0" dDsY="0" dE="0" cFootConectType="3.棘爪型地栓" cFootConectType_Xie="3.棘爪型地栓" K1="1.1" K2="1.6" K3="1.6" dRs="1.25" dRp="1.25" dRsp="1.25" dRc="1.25" bFLUse="0" bUseTuTemp="1" cTuTempName="定兴北">
+            <JcCenter>
+                <SubNode DisplayName="整体式基础" NodeType="3"/>
+                <SubNode DisplayName="A;B" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="1"/>
+                </SubNode>
+                <SubNode DisplayName="C;D" NodeType="2">
+                    <row DisplayName="(7)" NodeType="5" JcType="7" bSuccess="1"/>
+                </SubNode>
+            </JcCenter>
+            <Foundation Fingerprint="">
+                <JcPower AB="2" CD="2" AllGKCount="2">
+                    <row szGK="工况1" leg="A;B" dFz="-691.12" dFx="159" dFy="142.04" dMz="0" dMx="0" dMy="0" dFz_S="-511.941" dFx_S="117.778" dFy_S="105.215" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="A;B" dFz="569.8" dFx="130.24" dFy="86.58" dMz="0" dMx="0" dMy="0" dFz_S="422.074" dFx_S="96.474" dFy_S="64.133" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="" leg="C;D" dFz="-482.48" dFx="111" dFy="99.16" dMz="0" dMx="0" dMy="0" dFz_S="-357.393" dFx_S="82.222" dFy_S="73.452" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="C;D" dFz="816.2" dFx="186.56" dFy="124.02" dMz="0" dMx="0" dMy="0" dFz_S="604.593" dFx_S="138.193" dFy_S="91.867" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                </JcPower>
+            </Foundation>
+            <DJLS iLsD="48" iLsN="4" iLsSpace="290" iLsGJD="12" iLsGJInD="12" iLsGJSpace="200" cLsCaiZhi="35号优质碳素钢" cGjCaizhi="HPB300" cBzType="0-方形" bLineHaveBolt="0" iFootBanW="490"/>
+            <InsertJG cAIType="100x10" cAICaizhi="Q235" iAIWidth="100" iAIThick="10" iAIExtendL="700" iAIMgL="0" cMglsCaiZhi="Q235钢" iMglsD="24" iMglsN="4" iMglsCol="1" iColsD="24" iColsN="4" iColsCol="1"/>
+            <FLNode iFLInD="835" iFLOutD="1297" iFLThick="32" nSides="12" cCaiZhi="Q460" bAddJinBian="1" jjThick="12" jjH="280"/>
+        </Ta>
+        <Ta DisplayName="DB-2F4-SJ2" NodeType="1" cTaName="2F4-SJ2" eTaType="3" eTaFenLei="0" dHuGao="30" dTurnAngle="40" dFaceRoot="12.24" dSideRoot="12.24" dFaceAngle="0" dSideAngle="0" dDsX="0" dDsY="0" dE="0" cFootConectType="3.棘爪型地栓" cFootConectType_Xie="3.棘爪型地栓" K1="1.1" K2="1.6" K3="1.6" dRs="1.25" dRp="1.25" dRsp="1.25" dRc="1.25" bFLUse="0" bUseTuTemp="1" cTuTempName="定兴北">
+            <JcCenter>
+                <SubNode DisplayName="整体式基础" NodeType="3"/>
+                <SubNode DisplayName="A;B" NodeType="2">
+                    <row DisplayName="(1)" NodeType="5" JcType="1" bSuccess="1"/>
+                </SubNode>
+                <SubNode DisplayName="C;D" NodeType="2">
+                    <row DisplayName="(0)" NodeType="5" JcType="0" bSuccess="0"/>
+                    <row DisplayName="(1)" NodeType="5" JcType="1" bSuccess="1"/>
+                </SubNode>
+            </JcCenter>
+            <Foundation Fingerprint="">
+                <JcPower AB="2" CD="2" AllGKCount="2">
+                    <row szGK="工况1" leg="A;B" dFz="-1335.6" dFx="226.84" dFy="208.82" dMz="0" dMx="0" dMy="0" dFz_S="-989.333" dFx_S="168.03" dFy_S="154.681" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="A;B" dFz="1155.88" dFx="192.4" dFy="182.04" dMz="0" dMx="0" dMy="0" dFz_S="856.207" dFx_S="142.519" dFy_S="134.844" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="" leg="C;D" dFz="-932.4" dFx="158.36" dFy="145.78" dMz="0" dMx="0" dMy="0" dFz_S="-690.667" dFx_S="117.304" dFy_S="107.985" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="C;D" dFz="1655.72" dFx="275.6" dFy="260.76" dMz="0" dMx="0" dMy="0" dFz_S="1226.46" dFx_S="204.148" dFy_S="193.156" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                </JcPower>
+            </Foundation>
+            <DJLS iLsD="64" iLsN="4" iLsSpace="370" iLsGJD="16" iLsGJInD="16" iLsGJSpace="200" cLsCaiZhi="35号优质碳素钢" cGjCaizhi="HPB300" cBzType="0-方形" bLineHaveBolt="0" iFootBanW="630"/>
+            <InsertJG cAIType="100x10" cAICaizhi="Q235" iAIWidth="100" iAIThick="10" iAIExtendL="700" iAIMgL="0" cMglsCaiZhi="Q235钢" iMglsD="24" iMglsN="4" iMglsCol="1" iColsD="24" iColsN="4" iColsCol="1"/>
+            <FLNode iFLInD="835" iFLOutD="1297" iFLThick="32" nSides="12" cCaiZhi="Q460" bAddJinBian="1" jjThick="12" jjH="280"/>
+        </Ta>
+        <Ta DisplayName="DB-2F4-SDJ" NodeType="1" cTaName="2F4-SDJ" eTaType="4" eTaFenLei="0" dHuGao="30" dTurnAngle="90" dFaceRoot="14.021" dSideRoot="14.021" dFaceAngle="0" dSideAngle="0" dDsX="0" dDsY="0" dE="0" cFootConectType="3.棘爪型地栓" cFootConectType_Xie="3.棘爪型地栓" K1="1.1" K2="1.6" K3="1.6" dRs="1.25" dRp="1.25" dRsp="1.25" dRc="1.25" bFLUse="0" bUseTuTemp="1" cTuTempName="定兴北">
+            <JcCenter>
+                <SubNode DisplayName="整体式基础" NodeType="3"/>
+                <SubNode DisplayName="A;B" NodeType="2">
+                    <row DisplayName="(2)" NodeType="5" JcType="2" bSuccess="0"/>
+                    <row DisplayName="(1)" NodeType="5" JcType="1" bSuccess="1"/>
+                </SubNode>
+                <SubNode DisplayName="C;D" NodeType="2">
+                    <row DisplayName="(1)" NodeType="5" JcType="1" bSuccess="1"/>
+                </SubNode>
+            </JcCenter>
+            <Foundation Fingerprint="">
+                <JcPower AB="2" CD="2" AllGKCount="2">
+                    <row szGK="工况1" leg="A;B" dFz="-2064.88" dFx="371" dFy="400.68" dMz="0" dMx="0" dMy="0" dFz_S="-1529.54" dFx_S="274.815" dFy_S="296.8" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="A;B" dFz="1770.82" dFx="344.1" dFy="306.36" dMz="0" dMx="0" dMy="0" dFz_S="1311.72" dFx_S="254.889" dFy_S="226.933" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="" leg="C;D" dFz="-1441.52" dFx="259" dFy="279.72" dMz="0" dMx="0" dMy="0" dFz_S="-1067.79" dFx_S="191.852" dFy_S="207.2" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                    <row szGK="工况2" leg="C;D" dFz="2536.58" dFx="492.9" dFy="438.84" dMz="0" dMx="0" dMy="0" dFz_S="1878.95" dFx_S="365.111" dFy_S="325.067" dMz_S="0" dMx_S="0" dMy_S="0"/>
+                </JcPower>
+            </Foundation>
+            <DJLS iLsD="72" iLsN="4" iLsSpace="420" iLsGJD="18" iLsGJInD="18" iLsGJSpace="200" cLsCaiZhi="35号优质碳素钢" cGjCaizhi="HPB300" cBzType="0-方形" bLineHaveBolt="0" iFootBanW="700"/>
+            <InsertJG cAIType="100x10" cAICaizhi="Q235" iAIWidth="100" iAIThick="10" iAIExtendL="700" iAIMgL="0" cMglsCaiZhi="Q235钢" iMglsD="24" iMglsN="4" iMglsCol="1" iColsD="24" iColsN="4" iColsCol="1"/>
+            <FLNode iFLInD="835" iFLOutD="1297" iFLThick="32" nSides="12" cCaiZhi="Q460" bAddJinBian="1" jjThick="12" jjH="280"/>
+        </Ta>
+    </JcNode>
+</LILY>
